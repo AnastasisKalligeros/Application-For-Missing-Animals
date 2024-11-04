@@ -1,0 +1,342 @@
+﻿@{
+    ViewBag.Title = "AddRegister";
+ 
+}
+
+<head>
+
+
+</head>
+<body>
+    <h1 style="color: #B4886B;"> Register Form </h1>
+    <br />
+    <br />
+    <div class="clear-loading spinner">
+        <span></span>
+    </div>
+    <div class="w3ls-login box box--big">
+        <!-- form starts here -->
+        <form action="Reg" method="post">
+
+            <div class="agile-field-txt">
+                <label><i class="fa fa-user" aria-hidden="true"></i> Username: </label>  <input type="text"  name="Name" placeholder="Enter User Name" required="" />
+
+            </div> <br />
+
+
+                   <div class="agile-field-txt">
+                <label><i class="fa fa-unlock-alt" aria-hidden="true"></i> Password: </label>   <input type="password"  id="password" name="Password" placeholder="Enter Password" required="" />
+                <br />  <br />
+                       <div class="agile_label">
+                           <input id="check3" name="check3" type="checkbox" value="show password" onclick="myFunction()">
+                           <label class="check" for="check3">Show Password</label> <br />
+                </div> <br />
+                       <script>
+                           function myFunction() {
+                               var x = document.getElementById("password");
+                               if (x.type === "password") {
+                                   x.type = "text";
+
+                               } else {
+                                   x.type = "password";
+
+                               }
+                           }
+                       </script>
+
+                       <div class="agile-field-txt">
+                    <label><i class="fa fa-unlock-alt" aria-hidden="true"></i> Confirm Password: </label>  <input type="password" id="confirm_password" name="ConfirmPassword" placeholder="Confirm Password" required="" /> <br />
+
+                       </div> <br />
+
+                       <script>
+                           var password = document.getElementById("password")
+                               , confirm_password = document.getElementById("confirm_password");
+
+                           function validatePassword() {
+                               if (password.value != confirm_password.value) {
+                                   confirm_password.setCustomValidity("Passwords Don't Match");
+                               } else {
+                                   confirm_password.setCustomValidity('');
+                               }
+                           }
+
+                           password.onchange = validatePassword;
+                           confirm_password.onkeyup = validatePassword;
+                       </script>
+
+                       <div class="agile-field-txt">
+                           <label><i class="fa fa-user" aria-hidden="true"></i> Firstname: </label>  <input type="text" name="FirstName" placeholder="Enter your Firstname" required="" />
+                       </div> <br />
+
+
+                       <div class="agile-field-txt">
+                           <label><i class="fa fa-user" aria-hidden="true"></i> Lastname: </label>  <input type="text" name="LastName" placeholder="Enter your Lastname" required="" />
+                       </div> <br />
+                <div class="agile-field-txt">
+                       <label for="birthday">
+                           Birthday:
+                        <input type="date" id="birthday" name="Date" required="" lang="en-ca">
+                       </label> <br />
+                </div>
+                <div class="agile-field-txt">
+                <label>Gender:</label> <br />
+                    <input type="radio" style="color: #B4886B;" name="Gender" value="male" required="" />
+                <a style="color: #B4886B;">  Male </a><br />
+                    <input type="radio" style="color: #B4886B;" name="Gender" value="female" required="" />
+                <a style="color: #B4886B;">
+                    Female
+                </a><br />
+                    <input type="radio" style="color: #B4886B;" name="Gender" value="female" required="" />
+                <a style="color: #B4886B;">
+                    Prefer not to say</a><br />
+                </div>
+
+                    <div class="agile-field-txt">
+                       <label for="number">Enter your Phone number:</label>
+                       <input type="number" name="PhoneNumber"
+                           placeholder="Enter phone number" required="" />
+                </div>
+                       <br /> <br/>
+                        <div class="agile-field-txt">
+                       <label for="email">Enter your Email:</label>
+                    <input type="email" placeholder="Enter your Email address" name="Email" required="">
+                </div>
+
+
+                   </div>
+
+            
+            
+            <!-- script for show password -->
+           
+            <!-- //end script -->
+            <input type="submit" href="#" class="btn" value="Register">
+            <a href="#" class="btn" onclick="@("window.location.href='" + @Url.Action("Login", "Account") + "'");"> Back to Login</a>
+            
+            <br /> <br /> <br /> <br /> <br />
+            <!-- onclick="myFunction()-->
+        </form>
+    </div>
+    <!-- //form ends here -->
+
+    <div class="copy-wthree">
+        <p style="color: #B4886B;">
+            Created by Anastasios Kalligeros
+            <span style="color:blue; "> &#8471; 2023 </span>
+
+        </p>
+    </div>
+
+
+    <style>
+
+
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+            background-image: url("/images/register.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    </style>
+
+
+    <style>
+
+        input[type=text] {
+            border: 2px solid #aaa;
+            border-radius: 4px;
+            margin: 4px 0;
+            outline: none;
+            padding: 4px;
+            transition: .3s;
+        }
+
+            input[type=text]:focus {
+                border-color: #6E2C00;
+                box-shadow: 0 0 8px 0 #6E2C00;
+            }
+
+    </style>
+
+    <style>
+
+        input[type=radio] {
+            border: 2px solid #aaa;
+            border-radius: 4px;
+            margin: 4px 0;
+            outline: none;
+            padding: 4px;
+            transition: .3s;
+        }
+
+            input[type=radio]:focus {
+                border-color: #6E2C00;
+                box-shadow: 0 0 8px 0 #6E2C00;
+            }
+           
+
+    </style>
+
+    <style>
+
+        input[type=date] {
+            border: 2px solid #aaa;
+            border-radius: 4px;
+            margin: 4px 0;
+            outline: none;
+            padding: 4px;
+            transition: .3s;
+        }
+
+            input[type=date]:focus {
+                border-color: #6E2C00;
+                box-shadow: 0 0 8px 0 #6E2C00;
+            }
+
+    </style>
+
+
+
+
+
+    <style>
+
+        input[type=password] {
+            border: 2px solid #aaa;
+            border-radius: 4px;
+            margin: 4px 0;
+            outline: none;
+            padding: 4px;
+            transition: .3s;
+        }
+
+            input[type=password]:focus {
+                border-color: #6E2C00;
+                box-shadow: 0 0 8px 0 #6E2C00;
+                input [type=password]:focus
+            }
+
+    </style>
+
+
+
+    <style>
+
+        input[type=email] {
+            border: 2px solid #aaa;
+            border-radius: 4px;
+            margin: 4px 0;
+            outline: none;
+            padding: 4px;
+            transition: .3s;
+        }
+
+            input[type=email]:focus {
+                border-color: #6E2C00;
+                box-shadow: 0 0 8px 0 #6E2C00;
+            }
+
+    </style>
+
+
+
+    <style>
+
+        input[type=number] {
+            border: 2px solid #aaa;
+            border-radius: 4px;
+            margin: 4px 0;
+            outline: none;
+            padding: 4px;
+            transition: .3s;
+        }
+
+            input[type=number]:focus {
+                border-color: #6E2C00;
+                box-shadow: 0 0 8px 0 #6E2C00;
+            }
+
+    </style>
+
+
+
+
+
+
+
+    <style>
+
+        input[type=checkbox] {
+            border: 2px solid #aaa;
+            border-radius: 4px;
+            margin: 4px 0;
+            outline: none;
+            padding: 4px;
+            transition: .3s;
+        }
+
+            input[type=checkbox]:focus {
+                border-color: #6E2C00;
+                box-shadow: 0 0 8px 0 #6E2C00;
+                input [type=password]:focus
+            }
+
+    </style>
+
+
+    <style>
+        label {
+            color: #B4886B;
+            font-weight: bold;
+        }
+
+    </style>
+
+
+
+
+    <style>
+
+
+        .btn {
+            font-family: "Roboto", sans-serif;
+            font-size: 10px;
+            font-weight: bold;
+            background: #6E2C00;
+            width: 80px;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            -webkit-transition-duration: 0.3s;
+            -o-transition-duration: 0.3s;
+            -webkit-transition-property: box-shadow, transform;
+            transition-property: box-shadow, transform;
+        }
+
+            .btn:hover, .btn:focus, .btn:active {
+                box-shadow: 0 0 20px rgba(0,0,0, 0.5);
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+
+    </style>
+
+
+
+
+
+
+
+
+
+</body>

@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "ErrorUsernameAlreadyExists";
+
+}
+<h2>Error!</h2>
+<br />
+<br />
+
+
+
+<div class="agile-field-txt">
+    <label><i class="fa fa-user" aria-hidden="true"></i> This username already exists! Please press the button: "Go back to Register!" to try again! </label>
+    <input type="button" value="Go back to Register!" onclick="@("window.location.href='" + @Url.Action("Registration", "Account") + "'");" />
+
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div class="copy-wthree">
+    <p>
+        Created by Anastasios Kalligeros and Georgios Papakwstas
+        <span style="color:blue; "> &#8471; 2023 </span>
+
+    </p>
+</div>

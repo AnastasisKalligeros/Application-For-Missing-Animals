@@ -1,0 +1,119 @@
+﻿@model IEnumerable<ApplicationForMissingAnimals.Models.Animal>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h4  style="color: #B4886B;">List of animals</h4>
+
+<style>
+
+    h4 {
+        text-align: center;
+        font-size: 40px;
+    }
+</style>
+
+
+    <p href ="#" class="btn">
+    <a asp-action="New"  > Add New</a>
+</p>
+    <p href="#" class="btn">
+        <a asp-area="" asp-controller="Account" asp-action="back">
+            Menu
+        </a>
+    </p>
+
+
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Microchip)</th>
+            <th>@Html.DisplayNameFor(model => model.Content)</th>
+            <th>@Html.DisplayNameFor(model => model.Title)</th>
+            <th>@Html.DisplayNameFor(model => model.City)</th>
+            <th>@Html.DisplayNameFor(model => model.Street)</th>
+            <th>@Html.DisplayNameFor(model => model.Information)</th>
+            <th>@Html.DisplayNameFor(model => model.Type)</th>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <th>@Html.DisplayNameFor(model => model.Age)</th>
+            <th>@Html.DisplayNameFor(model => model.Description)</th>
+            <th>@Html.DisplayNameFor(model => model.Color)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var animal in Model)
+        {
+            <tr>
+                <td>
+                    <img src="~/imgs/@animal.ProfilePicture"
+                         class="rounded-circle"
+                         height="40" width="40"
+                     asp-append-version="true" />
+                    @animal.Microchip
+                </td>
+                <td>@animal.Content</td>
+                <td>@animal.Title</td>
+                <td>@animal.City</td>
+                <td>@animal.Street</td>
+                <td>@animal.Information</td>
+                <td>@animal.Type</td>
+                <td>@animal.Name</td>
+                <td>@animal.Age</td>
+                <td>@animal.Description</td>
+                <td>@animal.Color</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<style>
+    a {
+        color: white;
+    }
+
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+        background-image: url("/images/index1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+</style>
+
+<style>
+
+
+    .btn {
+        font-family: "Roboto", sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        background: #6E2C00;
+        width: 80px;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        -webkit-transition-duration: 0.3s;
+        -o-transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow, transform;
+        transition-property: box-shadow, transform;
+    }
+
+        .btn:hover, .btn:focus, .btn:active {
+            box-shadow: 0 0 20px rgba(0,0,0, 0.5);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+
+        
+
+</style>

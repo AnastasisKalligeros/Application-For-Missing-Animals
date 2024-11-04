@@ -1,0 +1,226 @@
+﻿
+@{
+	ViewBag.Title = "Login";
+
+}
+
+
+
+<head>
+
+</head>
+
+<body>
+   
+       
+    <h1 style="color: #B4886B;">Login Form</h1>
+        <br />
+        <br />
+        <div class="clear-loading spinner">
+
+        </div>
+        <div class="w3ls-login box box--big">
+            <!-- form starts here -->
+            <form action="index" method="post">
+
+             
+
+
+
+                <div class="agile-field-txt">
+                    <label><i class="fa fa-user" aria-hidden="true"></i> Username: </label>   
+                    <input type="text" name="Name" placeholder="Enter your username" required="" />
+
+
+                    <style>
+
+                        input[type=text] {
+                           
+                            border: 2px solid #aaa;
+                            border-radius: 4px;
+                            margin: 4px 0;
+                            outline: none;
+                            padding: 4px;
+                            transition: .3s;
+                        }
+
+                            input[type=text]:focus {
+                                border-color: #6E2C00;
+                                box-shadow: 0 0 8px 0 #6E2C00;
+
+
+                            }
+
+                    </style>
+
+
+                </div> <br />
+                <div class="agile-field-txt">
+                    <label><i class="fa fa-unlock-alt" aria-hidden="true"></i> Password: </label>  <input type="password" name="Password" placeholder="Enter Password" required="" id="myInput" />
+                <br />
+
+
+                    <style>
+
+                        input[type=password]{
+                          
+                            border:2px solid #aaa;
+                            border-radius:4px;
+                            margin:4px 0;
+                            outline:none;
+                            padding:4px;
+                            transition:.3s;
+                        }
+
+                        input[type=password]:focus{
+                                border-color: #6E2C00;
+                                box-shadow: 0 0 8px 0 #6E2C00;
+                                input [type=password]:focus
+                    
+                        }
+
+
+                    </style>
+
+
+                    <style>
+
+                        input[type=checkbox] {
+                            border: 2px solid #aaa;
+                            border-radius:4px;
+                            margin: 4px 0;
+                            outline: none;
+                            padding: 4px;
+                            transition: .3s;
+                        }
+
+                            input[type=checkbox]:focus {
+                                border-color: #6E2C00;
+                                box-shadow: 0 0 8px 0 #6E2C00;
+                                input [type=password]:focus
+                            }
+
+                    </style>
+
+                    <br />
+
+                    <div class="agile_label">
+                        <input id="check3" name="check3" type="checkbox" value="show password" onclick="myFunction()">
+                        <label class="check" for="check3">Show Password</label> <br />
+                    </div> <br />
+
+
+                    <style>
+                        label {
+                            color: #B4886B;
+                            font-weight: bold;
+
+                           
+                           
+                        }
+
+                        
+
+                    </style>
+
+
+                </div>
+             
+
+
+                <input type="submit" href="#" class="btn" value="LOGIN" asp-area="" asp-controller="Account" asp-action="index"> <br /> <br />
+
+
+
+                <style>
+
+                 
+                    .btn {
+                        font-family: "Roboto", sans-serif;
+                        font-size: 10px;
+                        font-weight: bold;
+                    background: #6E2C00;                 
+                        width:80px;
+                        padding: 10px;
+                        text-align:center;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        color: #fff;
+                        border-radius: 5px;
+                        cursor:pointer;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                        -webkit-transition-duration: 0.3s;
+                        -o-transition-duration: 0.3s;
+                        -webkit-transition-property: box-shadow, transform;
+                        transition-property: box-shadow, transform;
+                    }
+                    .btn:hover, .btn:focus, .btn:active{
+                        box-shadow: 0 0 20px rgba(0,0,0, 0.5);
+                        -webkit-transform: scale(1.1);
+                        transform: scale(1.1);
+
+                    }
+
+
+                </style>
+                <br />
+
+
+
+            <div class="agile-right" style="color: #B4886B;">
+                    Don't have an account ? <a  asp-area="" asp-controller="Account" asp-action="AddRegister"> Create one</a>
+               <br /> <br /> <br /> <br />
+
+
+                
+
+
+                </div>
+                <!-- script for show password -->
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("myInput");
+                        if (x.type === "password") {
+                            x.type = "text";
+                        } else {
+                            x.type = "password";
+                        }
+                    }
+                </script>
+                <!-- //end script -->
+
+            </form>
+        </div>
+        <!-- //form ends here -->
+
+        <div class="copy-wthree">
+        <p style="color: #B4886B;">
+                Created by Anastasios Kalligeros
+                <span style="color:blue; "> &#8471; 2023 </span>
+
+            </p>
+        </div>
+    
+    <style>
+
+
+
+        body {
+
+
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+            background-image: url("/images/background.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+     
+          
+        }
+
+       
+    </style>
+
+
+</body>

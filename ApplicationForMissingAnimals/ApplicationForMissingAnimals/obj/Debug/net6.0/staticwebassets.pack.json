@@ -1,0 +1,361 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ApplicationForMissingAnimals.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ApplicationForMissingAnimals.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\images\\animal.jpg",
+      "PackagePath": "staticwebassets\\images\\animal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\images\\doggy.jpg",
+      "PackagePath": "staticwebassets\\images\\doggy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\images\\error.png",
+      "PackagePath": "staticwebassets\\images\\error.png"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\images\\index1.jpg",
+      "PackagePath": "staticwebassets\\images\\index1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\images\\menu.jpg",
+      "PackagePath": "staticwebassets\\images\\menu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\images\\new.jpg",
+      "PackagePath": "staticwebassets\\images\\new.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\images\\register.jpg",
+      "PackagePath": "staticwebassets\\images\\register.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\img\\home-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\home-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\img\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\img\\login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\imgs\\0b313e0a-86e9-4008-ad3f-f58432767693_bird.jpg",
+      "PackagePath": "staticwebassets\\imgs\\0b313e0a-86e9-4008-ad3f-f58432767693_bird.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\imgs\\16c9ede5-2a9a-441d-a99b-6813cb9a4c78_dog.jpg",
+      "PackagePath": "staticwebassets\\imgs\\16c9ede5-2a9a-441d-a99b-6813cb9a4c78_dog.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\imgs\\18a84031-e390-4b3f-b173-158cfbb0ab98_cat.jpg",
+      "PackagePath": "staticwebassets\\imgs\\18a84031-e390-4b3f-b173-158cfbb0ab98_cat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\imgs\\256052e6-c139-4577-8c69-03cd25dd577a_dog.jpg",
+      "PackagePath": "staticwebassets\\imgs\\256052e6-c139-4577-8c69-03cd25dd577a_dog.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\imgs\\25957447-ef83-4824-806a-d6aad0e26479_bird.jpg",
+      "PackagePath": "staticwebassets\\imgs\\25957447-ef83-4824-806a-d6aad0e26479_bird.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\imgs\\2fa03a26-eb4c-42f2-b583-3f2f3d6a7218_bird.jpg",
+      "PackagePath": "staticwebassets\\imgs\\2fa03a26-eb4c-42f2-b583-3f2f3d6a7218_bird.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\imgs\\4c42349f-58b6-4630-891e-8a390be1c55e_dog.jpg",
+      "PackagePath": "staticwebassets\\imgs\\4c42349f-58b6-4630-891e-8a390be1c55e_dog.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\imgs\\6f939dc8-b202-4c40-b6a6-cc46ff543486_golden_retriever.jpg",
+      "PackagePath": "staticwebassets\\imgs\\6f939dc8-b202-4c40-b6a6-cc46ff543486_golden_retriever.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\imgs\\9db03fff-9fa4-49b6-8ef7-a6823a507d4b_bird.jpg",
+      "PackagePath": "staticwebassets\\imgs\\9db03fff-9fa4-49b6-8ef7-a6823a507d4b_bird.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\imgs\\b6182347-8411-4720-ba8a-0fa01f237125_cat.jpg",
+      "PackagePath": "staticwebassets\\imgs\\b6182347-8411-4720-ba8a-0fa01f237125_cat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\imgs\\d5ed14e9-d3d0-48c8-ba62-d09f503ab9af_white_dog.jpg",
+      "PackagePath": "staticwebassets\\imgs\\d5ed14e9-d3d0-48c8-ba62-d09f503ab9af_white_dog.jpg"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\tasso\\source\\repos\\ApplicationForMissingAnimals\\ApplicationForMissingAnimals\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ApplicationForMissingAnimals.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ApplicationForMissingAnimals.props",
+      "PackagePath": "build\\ApplicationForMissingAnimals.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ApplicationForMissingAnimals.props",
+      "PackagePath": "buildMultiTargeting\\ApplicationForMissingAnimals.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ApplicationForMissingAnimals.props",
+      "PackagePath": "buildTransitive\\ApplicationForMissingAnimals.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

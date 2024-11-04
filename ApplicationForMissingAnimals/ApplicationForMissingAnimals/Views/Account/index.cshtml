@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<h1 style="color: #B4886B;">Menu</h1>
+<head>
+    <style>
+        h1 {
+            text-align:center;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #6E2C00;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+            .sidenav a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+            }
+
+                .sidenav a:hover {
+                    color: #f1f1f1;
+                }
+
+            .sidenav .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+
+    </style>
+</head>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <a asp-area="" asp-controller="Account" asp-action="Index1">Did you find or lose a pet?</a>
+        <a href="https://www.google.com/maps/search/%CE%BA%CE%BB%CE%B9%CE%BD%CE%B9%CE%BA%CE%B5%CF%82+%CE%B6%CF%89%CF%89%CE%BD+">Are you looking for the nearest clinic? </a>
+       <!-- <a asp-area="" asp-controller="Account" asp-action="Associations">Animal Welfare Associations</a> -->
+        <a asp-area="" asp-controller="Account" asp-action="Chat">Chat</a>
+        <a href="#" onclick="@("window.location.href='" + @Url.Action("Login", "Account") + "'");"> Logout</a>
+    </div>
+
+
+    <span style="color: #B4886B;font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Click Here</span>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+
+    <style>
+
+
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+            background-image: url("/images/animal.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    </style>
+
+   
+    
+
+</body>
+</html>

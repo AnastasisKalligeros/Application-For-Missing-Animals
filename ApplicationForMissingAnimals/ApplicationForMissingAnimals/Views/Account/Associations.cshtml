@@ -1,0 +1,139 @@
+﻿@{
+    ViewBag.Title = "Associations";
+
+}
+<html>
+<head>
+    <style>
+
+        h1 {
+            text-align: center;
+            font-size: 40px;
+        }
+    </style>
+    <style>
+
+
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 100%;
+            background-image: url("/images/menu.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1 style="color: #B4886B;"> Information about Animal Welfare Associations in Greece! </h1>
+    </div>
+    <form>
+        
+        <div class="contact-info">
+            <div class="card">
+                <i class="icon fas fa-envelope"></i>
+                <div class="card-content">
+                    <p> <a style="color: white;" href=https://www.petshopmarko.gr/journal2/blog/post?journal_blog_post_id=24  ><h3>Information</h3></a></p>
+                    
+                   
+                  
+                </div>
+            </div>
+
+          
+
+            <div class="card">
+                <i class="icon fas fa-map-marker-alt"></i>
+                <div class="card-content">
+                    <p> <a style="color:white;" href=https://www.google.com/maps/search/%CF%86%CE%B9%CE%BB%CE%BF%CE%B6%CF%89%CE%B9%CE%BA%CE%B5%CF%82 /> <h3>Locations</h3></a></p>
+
+                   
+                
+                    
+                </div>
+            </div>
+        </div>
+
+    </form>
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans",sans-serif;
+}
+
+
+
+.contact-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    flex: 1;
+    max-width: 300px;
+    height: 140px;
+    background-color: #6E2C00;
+    margin: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 32px;
+    color: #ea8685;
+    transition: .3s linear;
+}
+
+.card:hover .icon{
+    transform: scale(4);
+    opacity: 0;
+}
+
+.card-content h3,
+.card-content span{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    opacity: 0;
+}
+
+.card-content h3{
+    top: 20px;
+    text-transform: uppercase;
+   color: white;
+            
+}
+
+
+
+.card:hover h3{
+    opacity: 1;
+    top: 46px;
+    transition: .3s linear .3s;
+}
+
+
+
+
+@@media screen and (max-width:900px){
+    .card{
+        flex: 100%;
+        max-width: 500px;
+    }
+}
+
+    </style>
+</body>
+</html>
